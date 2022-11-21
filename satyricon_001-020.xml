@@ -83,7 +83,7 @@
             <ab>
                <s n="2">
                   <anchor type="said" subtype="start"/>
-                  <w pos="ADV" lemma="nyum">Num</w>
+                  <w pos="ADV" lemma="num">Num</w>
                   <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="ADJ" lemma="alius">alio</w>
                   <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="genus">genere</w>
                   <w msd="Case=Gen|Gender=Fem|Number=Plur" pos="NOUN" lemma="furia">furiarum</w>
