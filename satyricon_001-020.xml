@@ -177,7 +177,7 @@
                   <w pos="ADV" lemma="nunc">Nunc</w>
                   <w pos="CCONJ" lemma="et">et</w>
                   <w msd="Case=Gen|Gender=Fem|Number=Plur" pos="NOUN" lemma="res">rerum</w>
-                  <w msd="Case=Abl|Gender=Masc|Number=Sing" pos="NOUN" lemma="tumus">tumore</w>
+                  <w msd="Case=Abl|Gender=Masc|Number=Sing" pos="NOUN" lemma="tumor">tumore</w>
                   <w pos="CCONJ" lemma="et">et</w>
                   <w msd="Case=Gen|Gender=Fem|Number=Plur" pos="NOUN" lemma="sententia"
                      >sententiarum</w>
