@@ -87,7 +87,7 @@
                   <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="ADJ" lemma="alius">alio</w>
                   <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="genus">genere</w>
                   <w msd="Case=Gen|Gender=Fem|Number=Plur" pos="NOUN" lemma="furia">furiarum</w>
-                  <w msd="Case=Nom|Gender=Masc|Number=Plur" pos="NOUN" lemma="declamo"
+                  <w msd="Case=Nom|Gender=Masc|Number=Plur" pos="NOUN" lemma="declamator"
                      >declamatores</w>
                   <w msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
                      pos="VERB" lemma="inquieto">inquietantur</w>
@@ -99,7 +99,7 @@
                </s>
                <s n="3">
                   <pc>‘</pc>
-                  <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="fiha">haec</w>
+                  <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="PRON" lemma="hic">haec</w>
                   <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="vulnus">vulnera</w>
                   <w pos="ADP" lemma="pro">pro</w>
                   <w msd="Case=Abl|Gender=Fem|Number=Sing" pos="NOUN" lemma="libertas">libertate</w>
@@ -132,12 +132,13 @@
                   <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="PRON" lemma="meus">meos</w>
                   <pc>,</pc>
                   <w pos="CCONJ" lemma="nam">nam</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="ADJ" lemma="succido">succisi</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="ADJ" lemma="poples">poplites</w>
+                  <w msd="Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass" 
+                     pos="VERB" lemma="succido">succisi</w>
+                  <w msd="Case=Nom|Gender=Masc|Number=Plur" pos="NOUN" lemma="poples">poplites</w>
                   <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="membrum">membra</w>
                   <w pos="ADV" lemma="non">non</w>
-                  <w msd="Case=Abl|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part" pos="VERB"
-                     lemma="toltineo">sustinent’</w>
+                  <w msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                     pos="VERB" lemma="sustineo">sustinent’</w>
                   <pc>?</pc>
                </s>
                <s n="6">
@@ -163,7 +164,7 @@
                         >eloquentiam</w>
                   </seg>
                   <w pos="VERB" lemma="eo"
-                     msd="Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act">
+                     msd="Case=Dat|Gender=Masc|Number=Plur|Tense=Fut|VerbForm=Part|Voice=Act">
                      <seg function="scope" ana="#sat1280268" part="Y">i</seg>
                      <seg function="marker" ana="#sat1280250">turis</seg>
                   </w>
@@ -200,9 +201,9 @@
                   <pc>,</pc>
                   <w msd="Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
                      pos="VERB" lemma="puto">putent</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Sing" pos="PRON" lemma="sui">se</w>
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="PRON" lemma="sui">se</w>
                   <w pos="ADP" lemma="in">in</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Sing" pos="ADJ" lemma="alius">alium</w>
+                  <w msd="Case=Acc|Gender=Masc|Number=Sing" pos="ADJ" lemma="alius">alium</w> <!-- should it be POS tagged as "PRON" ? --> 
                   <w msd="Case=Acc|Gender=Masc|Number=Sing" pos="NOUN" lemma="orbis">orbem</w>
                   <w msd="Case=Gen|Gender=Fem|Number=Plur" pos="NOUN" lemma="terra">terrarum</w>
                   <w
@@ -219,7 +220,7 @@
                   <w msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
                      pos="VERB" lemma="existimo">existimo</w>
                   <w pos="ADP" lemma="in">in</w>
-                  <w msd="Case=Abl|Gender=Neut|Number=Plur" pos="NOUN" lemma="scholus">scholis</w>
+                  <w msd="Case=Abl|Gender=Fem|Number=Plur" pos="NOUN" lemma="schola">scholis</w>
                   <w msd="Case=Acc|Degree=Sup|Gender=Masc|Number=Plur" pos="ADJ" lemma="stultus"
                      >stultissimos</w>
                   <w msd="Tense=Pres|VerbForm=Inf|Voice=Pass" pos="VERB" lemma="fio">fieri</w>
@@ -227,7 +228,7 @@
                   <w pos="SCONJ" lemma="quia">quia</w>
                   <w msd="Gender=Neut|Number=Sing" pos="NOUN" lemma="nihil">nihil</w>
                   <w pos="ADP" lemma="ex">ex</w>
-                  <w msd="Case=Abl|Gender=Masc|Number=Plur" pos="PRON" lemma="hic">his</w>
+                  <w msd="Case=Abl|Gender=Neut|Number=Plur" pos="PRON" lemma="hic">his</w>
                   <pc>,</pc>
                   <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="PRON" lemma="qui">quae</w>
                   <w pos="ADP" lemma="in">in</w>
@@ -243,70 +244,68 @@
                      pos="VERB" lemma="video">vident</w>
                   <pc>,</pc>
                   <w pos="CCONJ" lemma="sed">sed</w>
-                  <w
-                     msd="Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
-                     pos="VERB" lemma="piratus">piratas</w>
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="NOUN"  lemma="pirata">piratas</w>
                   <w pos="ADP" lemma="cum">cum</w>
-                  <w msd="Case=Abl|Gender=Neut|Number=Plur" pos="NOUN" lemma="catenum">catenis</w>
+                  <w msd="Case=Abl|Gender=Fem|Number=Plur" pos="NOUN" lemma="catena">catenis</w>
                   <w pos="ADP" lemma="in">in</w>
                   <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="litus">litore</w>
-                  <w msd="Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act"
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act"
                      pos="VERB" lemma="sto">stantes</w>
                   <pc>,</pc>
                   <w pos="CCONJ" lemma="sed">sed</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="ADJ" lemma="tyranus">tyrannos</w>
-                  <w
-                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
-                     pos="VERB" lemma="edicio">edicta</w>
-                  <w msd="Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part" pos="VERB"
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="NOUN" lemma="tyranus">tyrannos</w>
+                  <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="edictum">edicta</w>
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part" pos="VERB"
                      lemma="scribo">scribentes</w>
                   <pc>,</pc>
-                  <w msd="Case=Abl|Gender=Masc|Number=Plur" pos="PRON" lemma="qui">quibus</w>
+                  <w msd="Case=Abl|Gender=Neut|Number=Plur" pos="PRON" lemma="qui">quibus</w>
                   <w msd="Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
-                     pos="VERB" lemma="impereo">imperent</w>
-                  <w msd="Case=Abl|Gender=Masc|Number=Plur" pos="NOUN" lemma="filius">filiis</w>
+                     pos="VERB" lemma="impero">imperent</w>
+                  <w msd="Case=Dat|Gender=Masc|Number=Plur" pos="NOUN" lemma="filius">filiis</w>
                   <w pos="SCONJ" lemma="ut">ut</w>
-                  <w msd="Case=Gen|Gender=Masc|Number=Plur" pos="NOUN" lemma="patrum">patrum</w>
+                  <w msd="Case=Gen|Gender=Masc|Number=Plur" pos="NOUN" lemma="pater">patrum</w>
                   <w msd="Case=Gen|Gender=Masc|Number=Plur" pos="PRON" lemma="suus">suorum</w>
                   <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="caput">capita</w>
                   <w msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
                      pos="VERB" lemma="praecido">praecidant</w>
                   <pc>,</pc>
                   <w pos="CCONJ" lemma="sed">sed</w>
-                  <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="respono">responsa</w>
+                  <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="NOUN" lemma="responsum">responsa</w>
                   <w pos="ADP" lemma="in">in</w>
                   <w msd="Case=Acc|Gender=Fem|Number=Sing" pos="NOUN" lemma="pestilentia"
                      >pestilentiam</w>
                   <w
-                     msd="Aspect=Perf|Case=Abl|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
                      pos="VERB" lemma="do">data</w>
                   <pc>,</pc>
                   <w pos="SCONJ" lemma="ut">ut</w>
-                  <w msd="Case=Acc|Gender=Fem|Number=Plur" pos="NOUN" lemma="virgo">virgines</w>
-                  <w pos="NUM" lemma="tres">tres</w>
+                  <w msd="Case=Nom|Gender=Fem|Number=Plur" pos="NOUN" lemma="virgo">virgines</w>
+                  <w msd="Case=Nom|Gender=Fem|Number=Plur" pos="NUM" lemma="tres">tres</w>
                   <w pos="CCONJ" lemma="aut">aut</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="ADJ" lemma="multus">plures</w>
-                  <w msd="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
-                     pos="VERB" lemma="immoleo">immolentur</w>
+                  <w msd="Case=Nom|Gender=Fem|Number=Plur" pos="ADJ" lemma="multus">plures</w>
+                  <w msd="Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass"
+                     pos="VERB" lemma="immolo">immolentur</w>
                   <pc>,</pc>
                   <w pos="CCONJ" lemma="sed">sed</w>
-                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="VERB" lemma="mellesco">mellitos</w>
-                  <w msd="Case=Gen|Gender=Masc|Number=Plur" pos="NOUN" lemma="verbum">verborum</w>
+                  <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="ADJ" lemma="mellitus">mellitos</w>
+                  <w msd="Case=Gen|Gender=Neut|Number=Plur" pos="NOUN" lemma="verbum">verborum</w>
                   <w msd="Case=Acc|Gender=Masc|Number=Plur" pos="NOUN" lemma="globulus">globulos</w>
                   <w pos="CCONJ" lemma="et">et</w>
                   <w msd="Case=Acc|Gender=Neut|Number=Plur" pos="ADJ" lemma="omnis">omnia</w>
                   <w
-                     msd="Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
                      pos="VERB" lemma="dico">dicta</w>
-                  <w msd="Case=Nom|Gender=Neut|Number=Plur" pos="ADJ" lemma="factus">factaque</w>
-                  <w pos="ADV" lemma="quasi">quasi</w>
-                  <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="papo">papavere</w>
-                  <w pos="CCONJ" lemma="et">et</w>
-                  <w msd="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
-                     pos="NOUN" lemma="sesum">sesamo</w>
                   <w
-                     msd="Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
-                     pos="VERB" lemma="sparto">sparsa</w>
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+                     pos="VERB" lemma="facio">facta</w>
+                  <w pos="CCONJ" lemma="que">que</w>
+                  <w pos="ADV" lemma="quasi">quasi</w>
+                  <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="papaver">papavere</w>
+                  <w pos="CCONJ" lemma="et">et</w>
+                  <w msd="Case=Abl|Gender=Neut|Number=Sing" pos="NOUN" lemma="sesamum">sesamo</w>
+                  <w
+                     msd="Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+                     pos="VERB" lemma="spargo">sparsa</w>
                   <pc>.</pc>
                   <anchor type="said" subtype="end"/>
                </s>
